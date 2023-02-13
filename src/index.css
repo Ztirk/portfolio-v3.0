@@ -1,0 +1,21 @@
+html {
+  font-family: Roboto Mono, sans-serif;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.white {
+  color: #F9EBEA;
+}
+
+.black {
+  color: #17202A;
+}
+
+.red {
+  color: #CD6155;
+}
+
