@@ -40,7 +40,7 @@ function Intro() {
     <>
         <div className='vid-container'>
           <video className='vid' autoPlay loop muted>
-            <source src={vid} type='video/mp4'></source>
+            <source className='vidd' src={vid} type='video/mp4'></source>
           </video>
         </div>
         <div className='bg-mobile'><img src={bg}></img></div>

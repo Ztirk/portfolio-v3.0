@@ -230,6 +230,11 @@
         visibility: hidden;
     }
 
+    .vidd {
+        display: none;
+        visibility: hidden;
+    }
+
     .bg-mobile {
         display: flex;
         height: 100%;
