@@ -45,8 +45,6 @@
     grid-template-rows: 1fr 1fr 1fr auto;
     height: 500px;
     width: 550px;
-    position: relative;
-    right: 0;
     font-size: 45px;
     
 }
@@ -151,101 +149,60 @@
 /* RESPONSIVE -------------------------------------------------------------------> */
 
 @media (max-width: 992px) {
-    .vid {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        position: absolute;
-        z-index: -999;
-        margin: 0;
-        padding: 0;
-        top: 0;
-        
-    }
-    
     .main-container {
         display: grid;
         grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
         justify-content: center;
         align-items: center;
         gap: 0px;
         z-index: 0;
-        height: 100vh;
+        height: 100%;
         gap: 0px;
         z-index: -1;
     }
     
     .me {
-        height: 400px;
-        width: 400px;
+        height: 450px;
+        width: 100%;
         object-fit: contain;
-        transition: transform .5s ease;
-        transform: rotateY(0deg);
         z-index: -1;
-    }
-    
-    .me:hover {
-        transform: rotateY(360deg);
-        cursor: pointer;
     }
     
     .text-container {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr auto;
-        height: 300px;
-        width: 400px;
-        position: relative;
-        right: 0;
+        height: 400px;
+        width: 100%;
         font-size: 45px;
         
     }
-    
+
     .text1 {
         display: flex;
         justify-content: end;
         align-items: end;
         transform: rotateY(0deg);
         transition: transform .5s ease;
-        font-size: 30px;
+        font-size: 60px;
         
     }
     
     .text2 {
-        display: flex;
-        align-items: center;
-        font-size: 40px;
-        transform: rotateY(0deg);
-        transition: transform .5s ease;
+        font-size: 80px;
         z-index: -1;
     }
     
     .text3 {
-        font-size: 40px;
-        transform: rotateY(0deg);
-        transition: transform .5s ease;
+        font-size: 80px;
         z-index: -1;
     }
     
     .text4 {
-        font-weight: 800;
-        color: #C0392B;
-        font-size: 60px;
-        animation-name: colorChange;
-        animation-duration: 2s;
-        animation-timing-function: ease;
-        animation-iteration-count: infinite;
+        font-size: 100px;
     }
     
-    .text1.texted, .text2.texted, .text3.texted, .text4.texted {
-        transform: rotateY(360deg);
-        z-index: -1;
-    }
     
-    @keyframes colorChange {
-        0% {color:#C0392B}
-        50% {color: #F9EBEA}
-        100% {color: #C0392B;}
-    }
     
     .btn-container {
         display: flex;
@@ -254,20 +211,7 @@
     
     .btn {
         font-size: 20px;
-        background-color: #17202A;
-        text-align: center;
         padding: 5px 10px;
-        border: #F9EBEA 1px solid;
-        border-radius: 10px;
-        transition: color .5s ease, background-color .5s ease, border .5s ease;
-        z-index: 0;
-    }
-    
-    .btn:hover {
-        color: #17202A;
-        background-color: #F9EBEA;
-        border: #17202A 1px solid;
-        cursor: pointer;
     }
     
     .png-container {
@@ -281,15 +225,35 @@
 
 @media (max-width: 600px) {
     .me {
-        height: 200px;
-        width: 300px;
+        height: 300px;
+        width: 100%;
     }
     
     .text-container {
-        width: 300px;
+        width: 100%;
     }
 
+    .text1 {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        transform: rotateY(0deg);
+        transition: transform .5s ease;
+        font-size: 30px;
+        
+    }
+    
+    .text2 {
+        font-size: 40px;
+        z-index: -1;
+    }
+    
+    .text3 {
+        font-size: 40px;
+        z-index: -1;
+    }
+    
     .text4 {
-        font-size: 50px;
+        font-size: 60px;
     }
 }
