@@ -11,7 +11,7 @@ function Intro() {
     text1: "Hi, My name is",
     text2: 'Tana',
     text3: 'Promwungkwa',
-    text4: 'krit',
+    text4: 'Krit',
     active: false
   })
 
