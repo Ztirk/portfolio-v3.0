@@ -198,8 +198,6 @@
         font-size: 100px;
     }
     
-    
-    
     .btn-container {
         display: flex;
         justify-content: center;
@@ -223,7 +221,7 @@
     .vid-container {
         display: none;
     }
-    
+
     .me {
         height: 300px;
         width: 100%;
