@@ -40,10 +40,9 @@ function Intro() {
     <>
         <div className='vid-container'>
           <video className='vid' autoPlay loop muted>
-            <source className='vidd' src={vid} type='video/mp4'></source>
+            <source src={vid} type='video/mp4'></source>
           </video>
         </div>
-        <div className='bg-mobile'><img src={bg}></img></div>
         <div className='main-container white'> 
           <div className='text-container'>
             <div className={toggleText.active ? 'text1 texted' : 'text1'}>{toggleText.text1}</div>
