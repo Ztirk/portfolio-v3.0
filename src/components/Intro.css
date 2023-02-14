@@ -1,12 +1,18 @@
+.vid-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -999;
+}
+
 .vid {
     height: 100%;
     width: 100%;
-    object-fit: fill;
-    position: fixed;
+    object-fit: cover;
     margin: 0;
     padding: 0;
     top: 0;
-    z-index: -999;
+    
 }
 
 .main-container {

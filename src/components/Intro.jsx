@@ -37,7 +37,9 @@ function Intro() {
 
   return (
     <>
-        <video className='vid' src={vid} autoPlay loop muted></video>
+        <div className='vid-container'>
+          <video className='vid' src={vid} autoPlay loop muted></video>
+        </div>
         <div className='main-container white'> 
           <div className='text-container'>
             <div className={toggleText.active ? 'text1 texted' : 'text1'}>{toggleText.text1}</div>
