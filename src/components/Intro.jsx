@@ -37,7 +37,7 @@ function Intro() {
 
   return (
     <>
-        <video className='vid' autoPlay loop muted>
+        <video className='vid' autoplay loop muted >
             <source src={vid} type='video/mp4'></source>
         </video>
         <div className='main-container white'> 
