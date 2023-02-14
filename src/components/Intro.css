@@ -6,6 +6,10 @@
     object-fit: cover;
 }
 
+.bg-mobile {
+    display: none;
+}
+
 .vid {
     height: 100%;
     width: 100%;
@@ -224,6 +228,19 @@
 }
 
 @media (max-width: 600px) {
+    .vid-container {
+        display: none;
+    }
+
+    .bg-mobile {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -100;
+        position: fixed;
+    }
+
     .me {
         height: 300px;
         width: 100%;

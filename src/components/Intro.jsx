@@ -5,6 +5,7 @@ import me from '../assets/images/me1.png'
 import css from '../assets/images/css-3.png'
 import html from '../assets/images/html.png'
 import js from '../assets/images/js.png'
+import bg from '../assets/images/background.png'
 
 function Intro() {
   const [toggleText, setToggleText] = React.useState({
@@ -42,6 +43,7 @@ function Intro() {
             <source src={vid} type='video/mp4'></source>
           </video>
         </div>
+        <div className='bg-mobile'><img src={bg}></img></div>
         <div className='main-container white'> 
           <div className='text-container'>
             <div className={toggleText.active ? 'text1 texted' : 'text1'}>{toggleText.text1}</div>
