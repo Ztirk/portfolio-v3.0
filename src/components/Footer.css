@@ -11,6 +11,10 @@
     text-shadow: 0px 0px 5px black;
 }
 
+.contact {
+    animation: colorChange 2s ease infinite;
+}
+
 .mail {
     transition: color 1s ease;
 }
