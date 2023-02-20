@@ -6,9 +6,16 @@ import img3 from '../assets/images/web/drum.png'
 import img4 from '../assets/images/web/calculator.png'
 import img5 from '../assets/images/web/Untitled2.png'
 import img6 from '../assets/images/web/Untitled.png'
+import img7 from '../assets/images/web/e-commerce.png'
 
 function Cards() {
   const data = [
+    {
+      title: 'E-commerce-product',
+      image: img7,
+      link: 'https://ztirk.github.io/e-commerce-product/',
+      tool: 'Vite React, CSS'
+    },
     {
       title: 'Company Homepage',
       image: img6,
